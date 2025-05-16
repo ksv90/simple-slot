@@ -11,6 +11,6 @@ export default defineConfig({
   },
   plugins: [pluginReact()],
   output: {
-    assetPrefix: 'simple-slot',
+    assetPrefix: '/simple-slot/',
   },
 });
