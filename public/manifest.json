@@ -1,0 +1,50 @@
+{
+  "bundles": [
+    {
+      "name": "game-assets",
+      "assets": [
+        {
+          "alias": "spineboyData",
+          "src": "./spines/spineboy/spineboy-pro.json"
+        },
+        {
+          "alias": "spineboyAtlas",
+          "src": "./spines/spineboy/spineboy-pro.atlas"
+        },
+
+        {
+          "alias": "playground",
+          "src": "./textures/playground.png"
+        },
+        {
+          "alias": "mask",
+          "src": "./textures/mask.png"
+        },
+        {
+          "alias": "background",
+          "src": "./textures/background.jpg"
+        },
+        {
+          "alias": "cherry",
+          "src": "./textures/cherry.png"
+        },
+        {
+          "alias": "lemon",
+          "src": "./textures/lemon.png"
+        },
+        {
+          "alias": "plum",
+          "src": "./textures/plum.png"
+        }
+      ]
+    },
+    {
+      "name": "game-sounds",
+      "assets": [
+        { "alias": "ambient", "src": "./sounds/ambient.mp3" },
+        { "alias": "win", "src": "./sounds/win.mp3" },
+        { "alias": "spin", "src": "./sounds/spin.mp3" }
+      ]
+    }
+  ]
+}
